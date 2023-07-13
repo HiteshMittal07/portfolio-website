@@ -54,6 +54,9 @@
         width: 100%;
         margin: 0 auto;
     }
+    .about .para2{
+        text-align: center;
+    }
 }
 .services {
     background: url('../images/bg.jpg') no-repeat center center;
@@ -130,5 +133,5 @@ body::-webkit-scrollbar{
     display: none;
 }
 :root{
-    scroll-behavior:auto;
+    scroll-behavior:smooth;
 }
