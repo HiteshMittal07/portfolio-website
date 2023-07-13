@@ -15,9 +15,6 @@
     height: 100%;
     background: rgba(0,0,0,0.7);
 }
-.header #typing-text{
-    text-shadow: 0 0 20 red;
-}
 .header .text-container{
     z-index: 10;
 }
@@ -86,23 +83,13 @@
  .stats{
     background: linear-gradient(to bottom,black,#cc005f);
  }
-.project:hover{
-    transform: scale(1.07);
-    transition: all 0.5s ease-in-out;
-    opacity: 0.8;    
-}
 .btn:hover{
     transform: scale(1.08) !important;
     transition: all 0.5s ease-in-out !important;
     opacity: 0.8 !important;
 } 
 .hello{
-    background: -webkit-linear-gradient(blue, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.insta{
-    background: -webkit-linear-gradient(blue, red);
+    background: linear-gradient(to right,#12c2e9,#c471ed,#f64f59);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
