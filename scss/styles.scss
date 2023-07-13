@@ -50,6 +50,10 @@
     .about-content{
         flex-direction: column;
     }
+    .styleshout .para{
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 .services {
     background: url('../images/bg.jpg') no-repeat center center;
@@ -124,4 +128,7 @@
 }
 body::-webkit-scrollbar{
     display: none;
+}
+:root{
+    scroll-behavior:auto;
 }
