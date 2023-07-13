@@ -1,5 +1,5 @@
 function runtypingEffect(){
-    const text='I am Hitesh Mittal';
+    const text='I am Hitesh';
     const typingElement=document.getElementById('typing-text');
     const delay=70;
     typetext(text,typingElement,delay);

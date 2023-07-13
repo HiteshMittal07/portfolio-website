@@ -14,7 +14,6 @@
     />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Hitesh Mittal | Blockchain Developer</title>
   </head>
@@ -251,7 +250,8 @@
           <h3 class="text-center text-primary mb-1 fw-bold">My Projects</h3>
           <hr class="mx-auto w-25" />
           <h4 class="text-center mb-4">Check out here sample of my work</h4>
-          <div class="carousel slide" id="slider" data-bs-ride="carousel">
+          <!-- here i used data-bs-interval to reduce default time(3000) between slides changing -->
+          <div class="carousel slide" id="slider" data-bs-ride="carousel" data-bs-interval="1500">
             <div class="carousel-indicators">
               <button class="active" type="button" data-bs-slide-to="0" data-bs-target="#slider" aria-current="true"
                 aria-label="Slide 1"></button>
@@ -308,7 +308,7 @@
               This design was inspired by one of their templates. Check them out
               for templates to use and get inspiration from.
             </p>
-            <a href="https://styleshout.com" target="_blank" class="btn btn-primary btn-lg text-uppercase px-5 mx-3 my-2">
+            <a href="https://styleshout.com" target="_blank" class="btn btn-primary btn-lg text-uppercase px-5 mx-auto my-2 ">
               Visit StyleShout
             </a>
           </div>
@@ -477,7 +477,6 @@
     </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
