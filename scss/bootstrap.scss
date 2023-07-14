@@ -44,6 +44,4 @@ $container-max-widths: (
     xl: 980px,
     xxl: 1000px,
 )    !default;
-$carousel-control-color: rgb(7, 7, 7) !default;
-$carousel-indicator-active-bg: black !default;
 @import '../node_modules/bootstrap/scss/bootstrap';
